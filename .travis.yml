@@ -27,7 +27,6 @@ cache:
     - node_modules # NPM packages
 
 before_install:
-  - export CXX="g++-4.8" CC="gcc-4.8"
   - nvm install lts/*
 
 install:
